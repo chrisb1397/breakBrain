@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">BrainBreak</string>
+    <string name="app_title">Brain Break</string>
+    <string name="btn_play">PLAY</string>
+    <string name="btn_scores">PUNTAJES</string>
+    <string name="btn_options">OPCIONES</string>
+    <string name="principal_image">IMAGE</string>
+
+
+
+
+    <string name="title_activity_name_activity">name_activity</string>
+    <string name="lbl_name">Ingresa tu nombre:</string>
+    <string name="txt_name">Nombre del jugador</string>
+    <string name="btn_initial">INICIAR</string>
 </resources>
