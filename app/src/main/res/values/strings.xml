@@ -8,9 +8,6 @@
     <string name="copyright">© RCKDevelop</string>
 
 
-
-
-
     <string name="title_activity_name_activity">name_activity</string>
     <string name="lbl_name">Ingresa tu nombre:</string>
     <string name="txt_name">Nombre del jugador</string>
