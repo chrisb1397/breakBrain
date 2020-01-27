@@ -4,58 +4,100 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primary"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/lbl_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="40dp"
-        android:text="@string/app_title"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.005"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="260dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="44dp"
         android:contentDescription="@string/principal_image"
+        android:src="@drawable/logogame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lbl_title"
-        tools:srcCompat="@tools:sample/avatars[0]" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/logogame" />
 
     <Button
         android:id="@+id/btn_play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="274dp"
+        android:layout_height="106dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="160dp"
+        android:width="200sp"
+        android:background="@drawable/buttons"
+        android:drawableTop="@drawable/iconoplay"
         android:text="@string/btn_play"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image" />
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        tools:text="@string/btn_play" />
 
     <Button
         android:id="@+id/btn_scores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="285dp"
+        android:layout_height="112dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="160dp"
+        android:width="200sp"
+        android:background="@drawable/buttons"
+        android:drawableTop="@drawable/grade"
         android:text="@string/btn_scores"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_play" />
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        tools:text="@string/btn_scores" />
 
     <Button
         android:id="@+id/btn_options"
+        android:layout_width="285dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="160dp"
+        android:width="200sp"
+        android:background="@drawable/buttons"
+        android:drawableTop="@drawable/spanner"
+        android:text="@string/btn_options"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        tools:text="@string/btn_options" />
+
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="80dp"
-        android:text="@string/btn_options"
+        android:layout_marginTop="32dp"
+        android:text="@string/copyright"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_scores" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_options" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
