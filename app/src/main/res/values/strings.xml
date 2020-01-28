@@ -12,4 +12,9 @@
     <string name="lbl_name">Ingresa tu nombre:</string>
     <string name="txt_name">Nombre del jugador</string>
     <string name="btn_initial">INICIAR</string>
+
+    <string name="lbl_welcome">Bienvenido: %s</string>
+    <string name="lbl_question_mode">¿Qué modo de juego deseas?</string>
+    <string name="btn_fast_mode">Ultra Rápido y Veloz</string>
+    <string name="btn_categories">Categorías</string>
 </resources>
